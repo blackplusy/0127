@@ -60,12 +60,78 @@ tel:18028768679
 4.URL的组成
 	http://v.qq.com:80/live/preview.html?id=10
 	1>协议
+		http协议(超文本传输协议)
+			超文本[富文本](有图有真相:声音、图像、视频)
+		规定了数据先传输什么后传输什么，怎样传输
+		a.http协议特点
+			无状态(彼此不记录过去的行为)
+		b.http协议的请求
+			get 	请求的信息显示在URL上，相对不安全，主要用于浏览，我要什么
+				https://s.taobao.com/search?q=lv
+				https://s.taobao.com/search?q=zara
+			post 	请求信息显示在请求体中，相对安全，主要用于提交。我给什么
+		c.cookie&session
+			cookie   访问记录、验证信息  广告定投
+			session  会话保持，验证信息  30分钟超时
+		d.状态码
+			200    2开头请求成功
+			302    3开头移动或者缓存
+			404    4开头客户端请求有问题
+			500    5开头服务器有问题
 	2>域名\IP
+		域名(FQDN) 完全合格域名
+		DNS(域名解析服务器)
+		a.正向解析(域名--IP)
+			1>ping
+				win+r--cmd(打开命令提示符)--ping www.baidu.com
+			2>nslookup
+				win+r--cmd--nslookup www.baidu.com
+		b.反向解析(IP--域名)
+			nslookup 14.215.177.38
 	3>端口
+		区分应用层进程的标识
+		oracle              1521
+		mysql               3306
+		apache/nginx/iis    80
+		tomcat              8080
+		win+r--cmd--netstat -an
+		netstat -an | find "135"
+		| 管道，前面的输出作为后面的输入
 	4>虚拟目录
 	5>访问文件
 	6>访问文件使用参数
-
+5.抓包
+	a.常见抓包工具
+		F12
+		httpwatch
+		fiddler
+		wireshark
+	b.抓包实例
+	c.抓包原理
+		中间人原理
+	d.抓包数据
+		1>基础信息
+			文件名
+			状态码
+			文件类型
+			参考页面
+			文件大小
+			加载时间
+		2>请求头信息
+			请求地址
+			请求方式
+			可以解析的文件类型
+			出文本外文件压缩方式
+			语言
+			cookie
+			客户端信息
+		3>请求体
+		4>响应头
+			状态码
+			时间
+			服务器软件版本
+		5>响应体
+		http://ecshop.test1.shopex123.com/
 
 
 
