@@ -1,0 +1,72 @@
+HeyGor(黑哥)
+q\wechat:914338492
+tel:18028768679
+====================
+1.常见的软件架构
+	QQ       c/s  
+	微信     c/s  b/s
+	美图     c/s  b/s
+	腾讯视频 c/s  b/s
+	高德     c/s  b/s
+	LOL      c/s
+	office   单机  c/s
+	a.单机软件
+		不需要网络就可以执行的应用程序
+		hackercon
+		defcon
+	b.b/s架构软件
+		b:浏览器
+			IE         360   傲游   搜狗  UC  世界之窗  QQ
+			chrome     开发
+			firefox    测试  
+			safari     苹果
+		s:服务器
+			性能特别牛逼的电脑
+	c.c/s架构软件
+		c:客户端
+			pc端
+				电脑、服务器
+			移动端
+				手机、ipad、智能终端
+		s:服务器
+			性能特别牛逼的电脑
+2.前端、后端(b/s)
+	a.前端
+		html  标记性  静态页面(服务器上什么样子，在网页上什么样子)
+		js    动态页面(1.动画 2.交互)
+		css   样式表  美化  懂代码
+		UI    美化
+	b.后端
+		操作系统
+			unix
+			linux
+			windows
+		web服务器
+			apache  不支持java
+			nginx   轻量级web服务器(负载均衡、反向代理)
+			iis     微软
+			tomcat  java
+		数据库服务器
+			oracle
+			mysql
+			sqlserver
+3.访问网站流程
+	1>浏览器中输入http://sports.sina.com.cn
+	2>系统会到hosts文件中搜索是否有对应的IP地址，如果有的话直接访问
+	3>如果没有，数据通过网络传输给DNS服务器(域名-->IP),数据发送到目标IP的web服务器上
+	4>web服务器解析请求，并且发送请求给数据库服务器
+	5>数据库服务器返回响应数据，web服务器整合之后发回给浏览器
+
+4.URL的组成
+	http://v.qq.com:80/live/preview.html?id=10
+	1>协议
+	2>域名\IP
+	3>端口
+	4>虚拟目录
+	5>访问文件
+	6>访问文件使用参数
+
+
+
+
+
