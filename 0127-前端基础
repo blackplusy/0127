@@ -131,7 +131,14 @@ tel:18028768679
 			时间
 			服务器软件版本
 		5>响应体
-		http://ecshop.test1.shopex123.com/
+			http://ecshop.test1.shopex123.com/
+	e.fiddler的断点调试
+		断点调试
+		bpu http://ecshop.test1.shopex123.com
+		bpu
+		bpu http://ecshop.test1.shopex123.com/user.php
+		bpu
+
 
 
 
