@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.a {
+			outline: none;  /*取消原有得外围限制*/
+			width: 510px;   /*输入框宽度*/
+		}
+
+		div {
+			width: 200px;
+			height: 100px;
+			border-radius: 50px;
+			background: red;
+			line-height: 100px;
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+	<form action="test.php">
+		<table border="1px" width="600px" height="400px">
+			<tr align="right">
+				<td width="80px" >手机号码</td>
+				<td colspan="3">
+					<input type="text" placeholder="请输入手机号" class="a">
+				</td>
+			<!-- 	<td></td>
+				<td></td> -->
+			</tr>
+			<tr align="right">
+				<td>验证码</td>
+				<td width="180px">
+					<input type="text" class="b">
+				</td>
+				<td>
+					<img src="0127/1.jfif" width="50px" height="50px">
+				</td>
+				<td>
+					点击切换
+				</td>
+			</tr>			
+		</table>
+		<div>
+			立即注册
+		</div>
+	</form>
+</body>
+</html>
