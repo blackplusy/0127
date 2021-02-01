@@ -1,3 +1,7 @@
+QQ:    914338492
+
+
+
 
 1.python的应用领域(房产租赁)
 	a.爬虫--[58、链家、中原]--{价格、光线、地理位置、周边设施、评论}
@@ -32,6 +36,39 @@
 	b.安装
 		傻瓜安装(下一步)
 		Add Python xx To Path--->install now
+3.python的常见开发工具
+	sublime text
+	pycharm (社区版 专业版)
+	eclipse + pydev
+	vi/vim
+4.python的运行环境
+	a.win+r--cmd(命令提示符)--python
+	b.win+r--cmd(命令提示符)--python 文件名
+	c.IDE开发工具
+	d.idle
+		file--new file--存储为.py结尾的文件
+5.python的输入和输出
+	a.输出的应用场景
+		1.taobao中搜索出来的商品
+		2.访问网页不存在(404)
+		3.调试程序时候输出
+		4.前后端交互
+	b.输入的应用场景
+		1.注册用户填写新消息
+		2.taobao中输入框中输入信息
+		3.直播时候信息采集
+	c.python的输出
+		1.直接输出
+		2.变量输出
+		3.函数输出
+		4.格式化输出
+	d.python的输入
+		1.input
+			python2中接受键盘传入的数值信息
+			python3中接受键盘传入字符信息
+		2.raw_input
+			python2中接受键盘输入字符信息
+			python3中已经废弃
 
 
 
