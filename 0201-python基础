@@ -1,0 +1,40 @@
+
+1.python的应用领域(房产租赁)
+	a.爬虫--[58、链家、中原]--{价格、光线、地理位置、周边设施、评论}
+	b.数据分析--[影响好房子的因素]--{价格、光线、地理位置}
+	c.网站--[用户名、tel、wechat]
+	d.行为分析--[机器学习]
+	e.自动化运维
+	f.自动化测试
+
+	a.爬虫
+	b.数据分析   R     VS  Python   VS  excel
+	c.网站开发   JAVA  VS  Python
+	d.人工智能
+	e.自动化运维
+	f.自动化测试
+
+2.python的安装
+	a.下载
+		操作系统类型
+			unix
+			linux
+			windows
+		操作系统位数
+			计算机--属性
+			32位   i386 i686 i586 x86
+			64位   x64  x86-64
+		软件版本
+			2.x
+			3.x  (推荐)
+		下载地址:
+			https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe
+	b.安装
+		傻瓜安装(下一步)
+		Add Python xx To Path--->install now
+
+
+
+
+
+
