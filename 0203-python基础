@@ -48,3 +48,38 @@
 		values(值)
 		items(键值对)
 
+3.自动化测试环境搭建
+	a.准备
+		1>python安装包
+		2>pycharm
+		3>chrome浏览器
+		4>webdriver驱动
+		5>selenium驱动
+	b.安装python
+	c.安装pycharm
+		1>下载
+			https://download.jetbrains.8686c.com/python/pycharm-community-2020.3.3.exe
+		2>安装
+			傻瓜安装
+		3>配置
+			file--settings--project xxx--python interpreter--点击螺丝--add
+			--existing xxx--点击...选择系统中的python.exe--OKX2
+	d.chrome浏览器
+	e.webdriver驱动
+		1>查看浏览器的版本
+			打开浏览器--帮助--关于 xxxx
+			 88.0.4324.104
+		2>下载chrome webdriver驱动
+			http://npm.taobao.org/mirrors/chromedriver/
+		3>解压后复制到python的安装路径下
+	f.安装selenium模块
+		win+r--cmd--pip install selenium
+	g.测试代码
+#coding=utf-8
+#1.导入selenium模块中的webdriver驱动程序
+from selenium import webdriver
+#2.定义打开的浏览器类型
+br=webdriver.Chrome()
+#3.打开目标网站
+br.get("https://www.bilibili.com")
+
