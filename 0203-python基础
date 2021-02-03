@@ -75,11 +75,45 @@
 	f.安装selenium模块
 		win+r--cmd--pip install selenium
 	g.测试代码
-#coding=utf-8
-#1.导入selenium模块中的webdriver驱动程序
-from selenium import webdriver
-#2.定义打开的浏览器类型
-br=webdriver.Chrome()
-#3.打开目标网站
-br.get("https://www.bilibili.com")
+	#coding=utf-8
+	#1.导入selenium模块中的webdriver驱动程序
+	from selenium import webdriver
+	#2.定义打开的浏览器类型
+	br=webdriver.Chrome()
+	#3.打开目标网站
+	br.get("https://www.bilibili.com")
+4.web自动化主流测试框架
+	QTP/UFT
+	selenium
+	robot framework
+5.selenium特点
+	开源、免费
+	多浏览器支持   firefox  chrome  ie  opera safari
+	多平台支持     linux    windows  mac
+	多语言支持     java  python  ruby  php c# js
+	简单(api简单)，灵活(开发语言驱动)
+	支持分布式测试用例执行
+6.selenium定位元素方法
+	a.查看页面元素信息
+		右键元素--检查(开发者巩固)
+	b.对元素的常见操作
+		click()    点击
+		clear()    清空
+		send_keys() 发送(输入内容)
+	c.id定位
+		通过id的值进行元素的定位
+	d.class定位
+		通过class的值进行定位
+	e.tag定位
+		工作中使用较少，很难通过tag区分不同元素
+	f.通过link定位
+		专门定位文本链接，a标签
+	g.通过partial_link进行定位
+		超文本链接文字很长，全部输入浪费资源，使用部分文字进行模糊查询
+	h.xpath定位
+		理想状态下，页面中有id，class，超链接等等，实际情况不是，属性相同，页面都会变化
+	i.css定位
+		相对于xpath简洁，速度快
+		
+
 
